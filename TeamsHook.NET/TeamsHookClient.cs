@@ -16,10 +16,10 @@ namespace TeamsHook.NET
             _jsonSettings = TeamsHookJsonSettings.Default();
         }
 
-        public Task<HttpResponseMessage> PostAsync(string webhookUrl, TeamsCard card)
+        public async Task<HttpResponseMessage> PostAsync(string webhookUrl, TeamsCard card)
         {
             var payload = JsonSerializer.Serialize(card, card.GetType(), _jsonSettings);
-            return _client.PostAsync(webhookUrl, new StringContent(payload, Encoding.UTF8, "application/json"));
+            return await _client.PostAsync(webhookUrl, new StringContent(payload, Encoding.UTF8, "application/json"));
         }
     }
 }
