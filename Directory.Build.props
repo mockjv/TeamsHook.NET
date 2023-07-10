@@ -1,11 +1,11 @@
 <Project>
   <PropertyGroup>
-    <Version>0.2.0-pre4</Version>
+    <Version>0.2.0-pre5</Version>
     <Product>TeamsHook.NET</Product>
     <Description>.NET Client for sending messages to Microsoft Teams via Webhooks</Description>
-    <Company>Rafael Gómez</Company>
-    <Authors>Rafael Gómez</Authors>
-    <RepositoryUrl>https://github.com/rgomez90/TeamsHook.NET</RepositoryUrl>
+    <Company>Rafael Gómez;Jason Mock</Company>
+    <Authors>Rafael Gómez;Jason Mock</Authors>
+    <RepositoryUrl>https://github.com/mockjv/TeamsHook.NET</RepositoryUrl>
 
     <NeutralLanguage>en</NeutralLanguage>
     <LangVersion>Latest</LangVersion>

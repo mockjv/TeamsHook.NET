@@ -5,7 +5,7 @@
     <TargetFrameworks>netstandard2.0;netcoreapp3.1;net6.0;net7.0</TargetFrameworks>
     <PackageTags>teams, microsoft, webhook, client</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/rgomez90/TeamsHook.NET</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/mockjv/TeamsHook.NET</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 

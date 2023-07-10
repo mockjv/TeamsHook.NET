@@ -1,4 +1,8 @@
-[![Build and publish on version change](https://github.com/rgomez90/TeamsHook.NET/actions/workflows/dotnet.yml/badge.svg)](https://github.com/rgomez90/TeamsHook.NET/actions/workflows/dotnet.yml) [![Nuget](https://img.shields.io/nuget/dt/TeamsHook.NET?label=NuGet&logo=nuget)](https://www.nuget.org/packages/TeamsHook.NET/)
+[![Build and publish on version change](https://github.com/mockjv/TeamsHook.NET/actions/workflows/dotnet.yml/badge.svg)](https://github.com/rgomez90/TeamsHook.NET/actions/workflows/dotnet.yml) [![Nuget](https://img.shields.io/nuget/dt/TeamsHook.NET?label=NuGet&logo=nuget)](https://www.nuget.org/packages/TeamsHook.NET/)
+
+## FORK of https://github.com/rgomez90/TeamsHook.NET
+
+This repository is a fork of TeamsHook.NET used to apply changes and improvements.
 
 # TeamsHook.NET
 
