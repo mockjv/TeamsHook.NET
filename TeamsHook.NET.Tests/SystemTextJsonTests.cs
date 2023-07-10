@@ -42,7 +42,7 @@ namespace TeamsHook.NET.Tests
                             new Target()
                             {
                                 OS = TargetOS.@default,
-                                Uri = "https://hengesbach.com"
+                                Uri = "https://google.com"
                             }
                         }
                     }
@@ -98,8 +98,7 @@ namespace TeamsHook.NET.Tests
         [Fact]
         public async Task JsonTestMessageCardClient()
         {
-            const string UriWebhook = @"https://hengesbachgmbh.webhook.office.com/webhookb2/f4d42301-3481-42e4-8b9f-cc7616ccb768@4cccefa5-026f-4183-ba9d-ca1ff6e6bb59/IncomingWebhook/fe635dbed4b642a4aeb57eb7221a7ca1/e2d090c3-7509-4c54-a95f-678a5af6d85b";
-
+            var UriWebhook = Environment.GetEnvironmentVariable("TestWebHook");
             var opt = new JsonSerializerOptions()
             {
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
