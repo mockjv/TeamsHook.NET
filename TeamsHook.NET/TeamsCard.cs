@@ -10,10 +10,10 @@ namespace TeamsHook.NET
             Context = "http://schema.org/extensions";
         }
 
-        [JsonPropertyName("type")]
+        [JsonPropertyName("@type")]
         public CardType CardType { get; private set; }
 
-        [JsonPropertyName("context")]
+        [JsonPropertyName("@context")]
         public string Context { get; private set; }
     }
 }
